@@ -45,7 +45,7 @@ this is [Yahoo]
 |5|3|ES6|
 
 ```mermaid
-graph TD
+graph LR
 A(開始)
 B[執行動作]
 C{判斷狀態}
