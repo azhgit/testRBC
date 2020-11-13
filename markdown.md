@@ -17,6 +17,7 @@ C ->> A: 回應資料
 gantt
 title 專案開發時間表
 excludes weekends saturday,sunday
+
 section 設計
 電腦版: d1,2020-11-11,7d
 手機板: d2,after d1, 3d
