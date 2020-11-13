@@ -16,9 +16,8 @@ C ->> A: 回應資料
 ```mermaid
 gantt
 title 專案開發時間表
+dateFormat  YYYY-MM-DD
 excludes    weekends
-%% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
-
 section 設計
 電腦版: d1,2020-11-11,7d
 手機板: d2,after d1, 3d
