@@ -16,7 +16,8 @@ C ->> A: 回應資料
 ```mermaid
 gantt
 title 專案開發時間表
-dateFormat  YYYY-MM-DD
+dateFormat YYYY-MM-DD
+excludes weekends
 section 設計
 電腦版: d1,2020-11-11,7d
 手機板: d2,after d1, 3d
@@ -27,7 +28,7 @@ section 工程
 
 section Andrew
 列表畫面: a1,2020-11-11,2d
-串接獎勵資料: a2,after a1,2d
+串接資料: a2,after a1,2d
 欄位檢查: after a2,3d
 ```
 
